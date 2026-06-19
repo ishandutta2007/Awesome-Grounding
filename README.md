@@ -11,11 +11,14 @@ AI grounding is generally divided into two main categories: **Practical Enterpri
 
 These engineering techniques connect LLMs to accurate, real-time, or proprietary information during a live user session.
 
-* **Retrieval-Augmented Generation (RAG):** The system searches external documents, PDFs, or vector databases for relevant context, then feeds that specific data into the prompt along with the user's query.
-* **Tool & Function Calling:** The AI triggers live APIs, database queries, or external applications (e.g., checking a CRM or live weather data) to pull exact real-time answers.
-* **Knowledge Graph Grounding:** The model queries a structured graph of entities and explicit relationships (e.g., Ontologies), forcing the AI to follow strict logic rules instead of guessing connections.
-* **Structured Data Lookups:** The system restricts the AI's data access to specific, rigid fields (like a tracking number, SQL database cell, or pricing limit) rather than parsing free-form text.
-* **In-Context Prompt Grounding:** Authoritative reference materials, compliance guidelines, or exact examples (few-shot learning) are pinned directly into the system prompt to tightly constrain the AI’s output boundaries.
+| Grounding Method | Description | Year First Used | First Paper Link |
+| :--- | :--- | :--- | :--- |
+| **Retrieval-Augmented Generation (RAG)** | The system searches external documents, PDFs, or vector databases for relevant context, then feeds that specific data into the prompt along with the user's query. | 2020 | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) |
+| **Tool & Function Calling** | The AI triggers live APIs, database queries, or external applications (e.g., checking a CRM or live weather data) to pull exact real-time answers. | 2022 | [MRKL Systems](https://arxiv.org/abs/2205.00445) |
+| **Knowledge Graph Grounding** | The model queries a structured graph of entities and explicit relationships (e.g., Ontologies), forcing the AI to follow strict logic rules instead of guessing connections. | 2021 | [QA-GNN: Reasoning with Language Models and Knowledge Graphs](https://arxiv.org/abs/2104.07650) |
+| **Structured Data Lookups** | The system restricts the AI's data access to specific, rigid fields (like a tracking number, SQL database cell, or pricing limit) rather than parsing free-form text. | 2017 | [Seq2SQL: Generating Structured Queries from Natural Language](https://arxiv.org/abs/1709.00103) |
+| **In-Context Prompt Grounding** | Authoritative reference materials, compliance guidelines, or exact examples (few-shot learning) are pinned directly into the system prompt to tightly constrain the AI’s output boundaries. | 2020 | [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) |
+
 
 ---
 
@@ -23,6 +26,8 @@ These engineering techniques connect LLMs to accurate, real-time, or proprietary
 
 These research concepts focus on the deeper, systemic ways an artificial agent understands and interacts with physical or abstract reality.
 
-* **Symbol Grounding:** A foundational cognitive science concept addressing how abstract symbols (like the word "apple") connect to physical meaning, rather than just pointing to other abstract words in a dictionary.
-* **Embodied & Multimodal Grounding:** Used in robotics and computer vision, this connects text tokens directly to sensory inputs—such as camera feeds, physics engines, and spatial awareness—allowing the AI to interact with its physical environment.
-* **Semantic Grounding:** Explored in AI philosophy to measure whether models truly "understand" language. It is broken down into *functional* (internal data patterns), *social* (use in human contexts), and *causal* dimensions (referencing the real world).
+| Grounding Method | Description | Year First Used | First Paper Link |
+| :--- | :--- | :--- | :--- |
+| **Symbol Grounding** | A foundational cognitive science concept addressing how abstract symbols (like the word "apple") connect to physical meaning, rather than just pointing to other abstract words in a dictionary. | 1990 | [The Symbol Grounding Problem](https://arxiv.org/abs/cs/9906002) |
+| **Embodied & Multimodal Grounding** | Used in robotics and computer vision, this connects text tokens directly to sensory inputs—such as camera feeds, physics engines, and spatial awareness—allowing the AI to interact with its physical environment. | 2002 | [Learning words from sights and sounds](https://www.socialmachines.media.mit.edu/publications/pdf/CognitiveScience2002.pdf) |
+| **Semantic Grounding** | Explored in AI philosophy to measure whether models truly "understand" language. It is broken down into *functional* (internal data patterns), *social* (use in human contexts), and *causal* dimensions (referencing the real world). | 2024 | [Understanding AI: Semantic Grounding in Large Language Models](https://arxiv.org/abs/2403.01188) |
