@@ -1,13 +1,28 @@
-# Awesome-Grounding
-## Grounding in Artificial Intelligence
+# Awesome Grounding 🌐⚓
 
-**Grounding** refers to the methods used to anchor an AI model’s outputs to verifiable, real-world data. Instead of allowing a Large Language Model (LLM) to generate text solely based on its static training data, grounding forces the system to rely on authoritative reference material. This process significantly reduces **hallucinations** and ensures auditable, fact-based reliability.
+<div align="center">
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Grounding.svg)](https://github.com/ishandutta2007/Awesome-Grounding/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+A curated list of awesome grounding techniques, frameworks, and academic research to anchor AI model outputs to verifiable real-world data.
+
+<img src="assets/banner.svg" alt="Awesome Grounding Banner" width="100%" />
+
+</div>
+
+## 📖 Introduction to Grounding in AI
+
+**Grounding** refers to the engineering and theoretical methods used to anchor an AI model’s outputs to verifiable, real-world data. Instead of allowing a Large Language Model (LLM) to generate text solely based on its static training data, grounding forces the system to rely on authoritative reference material. This process significantly reduces **hallucinations** and ensures auditable, fact-based reliability.
 
 AI grounding is generally divided into two main categories: **Practical Enterprise Grounding** (used in production software) and **Theoretical & Cognitive Grounding** (used in AI research and robotics).
 
 ---
 
-## 1. Practical Enterprise Grounding (Runtime Methods)
+## 1. Practical Enterprise Grounding (Runtime Methods) ⚙️
 
 These engineering techniques connect LLMs to accurate, real-time, or proprietary information during a live user session.
 
@@ -22,7 +37,7 @@ These engineering techniques connect LLMs to accurate, real-time, or proprietary
 
 ---
 
-## 2. Theoretical & Cognitive Grounding
+## 2. Theoretical & Cognitive Grounding 🧠
 
 These research concepts focus on the deeper, systemic ways an artificial agent understands and interacts with physical or abstract reality.
 
