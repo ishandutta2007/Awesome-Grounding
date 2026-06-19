@@ -46,3 +46,15 @@ These research concepts focus on the deeper, systemic ways an artificial agent u
 | [**Symbol Grounding**](docs/symbol_grounding.md) | A foundational cognitive science concept addressing how abstract symbols (like the word "apple") connect to physical meaning, rather than just pointing to other abstract words in a dictionary. | 1990 | [The Symbol Grounding Problem](https://arxiv.org/abs/cs/9906002) |
 | [**Embodied & Multimodal Grounding**](docs/embodied_multimodal_grounding.md) | Used in robotics and computer vision, this connects text tokens directly to sensory inputs—such as camera feeds, physics engines, and spatial awareness—allowing the AI to interact with its physical environment. | 2002 | [Learning words from sights and sounds](https://www.socialmachines.media.mit.edu/publications/pdf/CognitiveScience2002.pdf) |
 | [**Semantic Grounding**](docs/semantic_grounding.md) | Explored in AI philosophy to measure whether models truly "understand" language. It is broken down into *functional* (internal data patterns), *social* (use in human contexts), and *causal* dimensions (referencing the real world). | 2024 | [Understanding AI: Semantic Grounding in Large Language Models](https://arxiv.org/abs/2403.01188) |
+
+## Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Grounding&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Grounding&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Grounding&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Grounding&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
